@@ -9,6 +9,9 @@
     color: black;
     font-family: 'Amaranth', sans-serif;
 }
+.main_Page{
+  
+}
 .main{
     background-color: #FFEFE9;
     height: 100vh;
@@ -576,7 +579,7 @@ margin: 0 auto;
         height: 1800px;
     }
     .right{
-        margin-top: 130px;
+
         height: 20px !important;
     }
     .right a{
@@ -596,7 +599,7 @@ margin: 0 auto;
         color: #fff;
     }
     .svgg{
-        top: 87%;
+        top: 97%;
     }
     .continer{
         display: flex;
@@ -629,26 +632,97 @@ margin: 0 auto;
     .main_left button{
        padding: 12px 20px;
     }
-    .div{
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .women_Img{
         z-index: 1000;
         position: absolute;
-        width: 110%;
-       top: -10%;
-       left: -20%;
-    
-
+        width: 65%;
+        left: 10%;
+        top: -8%;
     }
     .women_Background{
-        top: 16%;
-        top: 0;
+        top:10%;
+        left: 0;
         position: relative;
-        width: 120%;
+        width: 65%;
         display: block; 
     }
+    .sec_main{
+        display: flex;
+        flex-direction: column;
+    }
+    .newimg{
+        width: 250px;
+    }
+    .main-logo-grid {
+        width: 290px;
+        height: 290px; 
+    }
+    .rotating-outer-container {
+        width: 290px;
+     height: 290px;
+    }
+    .First_img{
+        top: 60%;
+        left: -10%;
+        width: 90px;
+    }
+    .Sec_img{
+        margin-left: 30px;
+        top: 10%;
+     width: 100px;
+    }
+    .Third_img{
+        left: 10%;
+     width: 120px;
+    }
+    .Four_img{
+        top: 100%;
+        left: 60%;
+   width: 150px;
+    }
+    .circle_text{
+         padding: 0 30px;
+    }
+    .circle_text p{
+        font-size: 18px;
+    }
+    .anima a{
+        font-size: 25px !important;
+    }
+    .but{
+        font-size: 10px !important;
+        padding: 15px 20px !important;
+    }
+    .svgs{
+        height: 270vh;
+    }
+    .allCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bras h1{
+        font-size: 40px;
+    }
+    .sec_svg{
+        position: relative;
+    }
+    .card{
+        padding-bottom: 20px;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+    .footer{
+       height: 100vh;
+    }
+    .main_footer{
+       height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .last_svg{
+       
+    }
+
 }
