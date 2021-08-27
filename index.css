@@ -632,13 +632,11 @@ margin: 0 auto;
      }
     
 }
-@media screen and (max-width: 380px) {   
+@media screen and (max-width: 412px)  {   
     .header{
         width: 100%;
         padding: 0 40px;
         display: flex;
-        height: 10%;
-        margin-top: 30px;
     }
     .hamburger{
        left: 85%;
@@ -736,7 +734,7 @@ display: none;
         color: #fff;
     }
     .svgg{
-        top: 95%;
+        top: 112%;
     }
     .continer{
         display: flex;
@@ -759,7 +757,6 @@ display: none;
         width: 100%;
       padding: 0 50px;
         display: flex;
-        text-align: center;
         letter-spacing: 0;
         font-size: 26px;
     }
@@ -767,17 +764,17 @@ display: none;
         background: none;
     }
     .main_left button{
-       padding: 12px 20px;
+       padding: 12px 20px !important;
     }
     .women_Img{
         z-index: 1000;
         position: absolute;
         width: 62%;
         left: 12%;
-        top: -18%;
+        top: 18%;
     }
     .women_Background{
-        top:-2%;
+        top:38%;
         left: 0;
         position: relative;
         width: 62%;
@@ -800,11 +797,11 @@ display: none;
     }
     .First_img{
         top: 60%;
-        left: -10%;
+        left: -5%;
         width: 90px;
     }
     .Sec_img{
-        margin-left: 30px;
+        left: -10%;
         top: 10%;
      width: 100px;
     }
@@ -830,9 +827,9 @@ display: none;
         font-size: 10px !important;
         padding: 15px 20px !important;
     }
-    .svgs{
+    /* .svgs{
         height: 270vh;
-    }
+    } */
     .allCard{
         display: flex;
         flex-direction: column;
